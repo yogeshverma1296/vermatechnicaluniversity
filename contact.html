@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for responsive end-->
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- css linked -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <!-- google font end -->
+    
+    <!-- favicon added -->
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <!-- favicon added successfully -->
+
+  </head>
+  <body>
+    <!-- display on our website -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/vermatechlogo.png" alt="logo image"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+    </section>
+    <!-- contact us -->
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.0056100078914!2d76.5849406751024!3d30.46427919855807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fdb53d2a32211%3A0x71519144ecb04a6d!2sVerma%20Technologies%20%3A%20Website%20Development%2C%20Search%20Engine%20Optimization%20(SEO)%2C%20Graphic%20Designing%20Company%20in%20Rajpura%2C%20India!5e0!3m2!1sen!2sin!4v1694342723920!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <a href="https://goo.gl/maps/DcZxJgYMSNBL1dD79" target="_blank" rel="noopener noreferrer"><i class="fa fa-home fa-lg"></i></a>
+            <span>
+              <h5>Vikas Nagar, Rajpura</h5>
+              <p>Rajpura, Patiala, Punjab, IN</p>
+            </span>
+          </div>
+          <div>
+            <a href="tel:+917973930296" target="_blank" rel="noopener noreferrer"><i class="fa fa-phone fa-lg"></i></a>
+            <span>
+              <h5>+91 7973930296</h5>
+              <p>Monday to Saturday, 9AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <a href="mailto:yogeshverma1296@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-o fa-lg"></i></a>
+            <span>
+              <h5>yogeshverma1296@gmail.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="https://formspree.io/f/xzblglwr" method="POST">
+            <input type="text" name="name" id="nameid" placeholder="Enter Your Name" required>
+
+            <input type="email" name="email" id="emailid" placeholder="Enter Your Email" required>
+
+            <input type="text" name="subject" id="subjectid" placeholder="Enter Your Subject" required>
+
+            <textarea name="message" id="message" rows="8" placeholder="Message" required></textarea>
+
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to our esteemed research university, where our commitment to excellence is matched only by our compassion.<br>Together, we envision a world where knowledge, empathy, and respect converge to create a brighter future for all.</p>
+        <div class="icons">
+            <a href="http://www.facebook.com/yogeshverma1296" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-lg"></i></a>
+            <a href="http://instagram.com/yogeshverma1296" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+            <a href="https://twitter.com/YogeshVerma1296" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="http://www.linkedin.com/in/yogeshverma1296/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        </div>
+        <p>Made with <i class="fa-brands fa-html5 fa-lg"></i> <i class="fa-brands fa-css3-alt fa-lg"></i> by <a href="http://www.linkedin.com/in/yogeshverma1296/" target="_blank" rel="noopener noreferrer" class="yogesh-footer">Yogesh Verma</a></p>
+    </section>
+
+
+    <!-- smpt js link -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- smpt js link end -->
+    <!-- script link -->
+    <script src="script/script.js"></script>
+    <!-- script linked -->
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/747fba4db8.js" crossorigin="anonymous"></script>
+    <!-- font awesome kit end-->
+  </body>
+</html>
